@@ -1,67 +1,67 @@
-// let bars=document.querySelectorAll('.skillbar');
-// bars.forEach(bar=>{
-//     let fill=bar.querySelector('.fill');
-//     let percent=bar.getAttribute('data-percent');
-//     setTimeout(()=>{
-//         fill.style.width=percent+"%";
-//     },100);
+let bars=document.querySelectorAll('.skillbar');
+bars.forEach(bar=>{
+    let fill=bar.querySelector('.fill');
+    let percent=bar.getAttribute('data-percent');
+    setTimeout(()=>{
+        fill.style.width=percent+"%";
+    },100);
+})
+// window.addEventListener("load", () => {  // wait till page fully loads
+//     let bars = document.querySelectorAll('.skillbar');
+
+//     bars.forEach(bar => {
+//         let fill = bar.querySelector('.fill');
+//         let percent = bar.getAttribute('data-percent');
+
+//         // thoda delay for smooth transition
+//         setTimeout(() => {
+//             fill.style.width = percent + "%";  // CSS transition se smooth fill
+//         }, 100);
+//     });
+// });
+// function runCounters(){
+//     counters.forEach(counter=>{
+//         let counter=document.querySelector('.count');
+//         const interval=20;
+//         const duration=2000;
+//     let target=parseInt(counter.getAttribute('data-target'));
+//     const steps=Math.round(duration/interval);
+//     const increment=Math.ceil(target/steps);
+//     let current=0;
+//     const timer=setInterval(()=>{
+//         current+=increment;
+//         if(current>=target){
+//             counter.textContent=target;
+//             clearInterval(timer);
+//         }
+//         else{
+//             counter.textContent=current;
+//         }
+//     },interval)
+
 // })
-// // window.addEventListener("load", () => {  // wait till page fully loads
-// //     let bars = document.querySelectorAll('.skillbar');
-
-// //     bars.forEach(bar => {
-// //         let fill = bar.querySelector('.fill');
-// //         let percent = bar.getAttribute('data-percent');
-
-// //         // thoda delay for smooth transition
-// //         setTimeout(() => {
-// //             fill.style.width = percent + "%";  // CSS transition se smooth fill
-// //         }, 100);
-// //     });
-// // });
-// // function runCounters(){
-// //     counters.forEach(counter=>{
-// //         let counter=document.querySelector('.count');
-// //         const interval=20;
-// //         const duration=2000;
-// //     let target=parseInt(counter.getAttribute('data-target'));
-// //     const steps=Math.round(duration/interval);
-// //     const increment=Math.ceil(target/steps);
-// //     let current=0;
-// //     const timer=setInterval(()=>{
-// //         current+=increment;
-// //         if(current>=target){
-// //             counter.textContent=target;
-// //             clearInterval(timer);
-// //         }
-// //         else{
-// //             counter.textContent=current;
-// //         }
-// //     },interval)
-
-// // })
-// // }
-// // function runCounters(){
-//     let counter=document.querySelectorAll('.count');
-//     const interval=20;
-//     const duration=2000;
-//     counter.forEach(counter=>{
-//         let target=parseInt(counter.getAttribute('data-target'));
-//         const steps=Math.round(duration/interval);
-//         const increment=Math.ceil(target/steps);
-//         let current=0;
-//         const timer=setInterval(()=>{
-//             current+=increment;
-//             if(current>=target){
-//                 counter.textContent=target;
-//                 clearInterval(timer);
-//             }
-//             else{
-//                 counter.textContent=current;
-//             }
-//         },interval)
-//     })
-// // }
+// }
+// function runCounters(){
+    let counter=document.querySelectorAll('.count');
+    const interval=20;
+    const duration=2000;
+    counter.forEach(counter=>{
+        let target=parseInt(counter.getAttribute('data-target'));
+        const steps=Math.round(duration/interval);
+        const increment=Math.ceil(target/steps);
+        let current=0;
+        const timer=setInterval(()=>{
+            current+=increment;
+            if(current>=target){
+                counter.textContent=target;
+                clearInterval(timer);
+            }
+            else{
+                counter.textContent=current;
+            }
+        },interval)
+    })
+// }
 // let data=[
 //     {
 
