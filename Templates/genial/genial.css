@@ -1,0 +1,668 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#mainwidth{
+    width: 90%;
+    margin: auto;
+}
+#mainsection{
+    background-image: url(bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+}
+   
+.firstsection{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    cursor: pointer;
+}
+.listing{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.listing li{
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #000;
+}
+.listing:hover{
+    text-decoration:underline;
+    
+    color: #f36;
+}
+.button button{
+    background-color: #f36;
+    color:#fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+.button button:hover{
+    background-color: #000;
+    color: #fff;
+    transition: .5s;
+    cursor: pointer;
+}
+.navsection{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+.imagesection img{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.herocontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+
+}
+.herocontent h1{
+    font-size: 50px;
+    width: 80%;
+}
+.herocontent p{
+    color: #646464;
+    width: 80%;
+}
+.inputsection{
+    display: flex;
+    
+}
+.inputsection input{
+    border: none;
+    height: 60px;
+    width: 470px;
+    background-color:azure;
+    text-transform: capitalize;
+    font-size: 15px;
+    background-color:#fff;
+    /* color:#646464; */
+}
+.inputbutton button{
+    height: 60px;
+    width: 200%;
+    background-color: #f36;
+    color:#fff;
+    border: none;
+    text-transform: capitalize;
+    position: relative;
+    right: 100px;
+    font-size: 15px;
+
+}
+.inputbutton button:hover{
+    background-color: #000;
+    cursor: pointer;
+    transition: 1s;
+}
+.thirdsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.cardimg{
+    display: flex;
+    gap: 40px;
+    position: relative;
+    margin-bottom: 90px;
+}
+.cardimg img{
+    width: 30%;
+}
+.cardcontent{
+    margin-bottom:300px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom:-130%;
+}
+.card1{
+    text-align: center;
+    height: 200%;
+    width: 20%;
+    gap: 20px;
+    background-color: #fff; 
+    padding: 30px;       
+}
+.card1 h3{
+    font-size: 20px;
+}
+.card1 p{
+    color: #646464;
+}
+.card3{
+    position: relative;
+    left: -70px;
+}
+.card2{
+    position: relative;
+    left: -30px;
+}
+.card4{
+    position: relative;
+    left: -50px;
+}
+.thirdimg{
+    margin-top: 50px;
+    /* width: 100%; */
+}
+.card10{
+    position: relative;
+    top: 390px;
+    right: 30px;
+}
+.card11{
+    position: relative;
+    top: 390px;
+    right: 50px;
+}
+.card12{
+    position: relative;
+    top: 390px;
+    right: 70px;
+}
+.thirdone{
+    text-align: center;
+    gap: 30px;
+
+}
+.thirdone h3{
+    color: #f36;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.fourone{
+    margin-top: 150px;
+    
+}
+.fourtsection{
+    background-color: #007bff12;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fourone{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 50px 0px 30px 0px;
+gap: 15px;
+}
+.fourone h3{
+    color: #f36;
+    text-transform: uppercase;
+    font-size: medium;
+}
+.fourone h2{
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.fourtwo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.colum1{
+    /* border: 1px solid black; */
+    width: 25%;
+    background-color: #fff;
+    text-align: center;
+    padding: 30px 10px;
+    gap: 20px;
+    position: relative;
+}
+.colum1 h3{
+    color: #f36;
+}
+.colum1 h2{
+    text-transform: capitalize;
+    font: lighter;
+}
+.colum1 p{
+    color: #646464;
+}
+.arrowimg{
+    position: absolute;
+    bottom: 90px;
+    right: -100px;
+}
+.fifthcontent{
+    margin-bottom: 300px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: flex-end;
+    gap: 50px;
+}
+.fifthsection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fifthcontent1{
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    gap: 10px;
+}
+.fifthcontent1 h3{
+text-transform: uppercase;
+color: #f36;
+font-size: medium;
+}
+.fifthcontent1 p{
+    color: #646464;
+    width: 90%;
+}
+.fifthcontent2{
+    display: flex;
+    gap: 30px;
+}
+.fivecard1{
+    /* border: 1px solid black; */
+    height: 15vh;
+    width: 25%;
+    display: flex;
+    box-shadow: -8px 20px 20px rgb(245, 245, 245);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0%;
+    transition:0.5s;
+}
+.fivecard1 i{
+    color: #f36;
+}
+.fivecard1 h3{
+    text-transform: capitalize;
+    font-size: medium;
+    font-weight: bold;
+}
+.background{
+    width: 100%;
+    height: 0%;
+    background-color: #f36;
+    color: #fff;
+    position: absolute;
+    /* border: 1px solid black; */
+    z-index: 1;
+
+}
+.fivecard1:hover .background{
+    height: 100%;
+    color: #fff;
+}
+.sixsection{
+    background:#007bff12;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sixheading{
+    padding: 30px 0px;
+    text-transform: capitalize;
+}
+.sixheading h4{
+    color: #f36;
+}
+h4:hover{
+    transition: 1s;
+    transform: scale(1.3);
+}
+
+.siximages{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    z-index: -1;
+    gap: 20px;
+}
+.sixcontent{
+    display: flex;
+    justify-content: space-around;
+    position:relative;
+    align-items: flex-end;
+    top: 300px;
+    color: #fff;
+    font-size: 20px;
+}
+.seventhcontent{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    align-items: center;
+    text-transform: capitalize;
+    gap: 20px;
+}
+.seventhcontent h4{
+color: #f36;
+}
+.seventhcontent2{
+    display: flex;
+    justify-content: space-around;
+}
+.par p{
+width: 80%;
+text-align: center;
+padding-left: 30px;
+color: #646464;
+
+}
+.card33{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+.card33content{
+    text-transform: capitalize;
+    height: 10vh;
+    gap: 20px;
+
+}
+.card33content h5{
+color: #f36;
+}
+.eightsection{
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+    justify-content: space-evenly;
+}
+.eightcontent1{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.eightcontent1 h1{
+    font-size: 35px;
+}
+.eightcontent1 p{
+    color: #646464;
+    width: 60%;
+    text-align: center;
+}
+.eightbutton button{
+    background-color: #f36;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+.eightcontent2{
+    width: 200px;
+    color: #646464;
+    display: flex;
+    justify-content: space-between;
+
+}
+.eightcontent2 img{
+    color: #646464;
+}
+.ninthcontent1{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+    justify-content: flex-end;
+    text-transform: capitalize;
+    gap: 10px;
+}
+.ninthcontent1 h5{
+text-transform: uppercase;
+color: #f36;
+font-size: 15px;
+}
+.ninthcontent1 h2{
+    font-size: 30px;
+}
+.ninesection{
+    height: 150vh;
+}
+.cardnine{
+display: flex;
+justify-content: space-evenly;
+margin-top: 50px;
+}
+.card34{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+}
+.icons i{
+    color: #f36;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 5vh;
+}
+.icons{
+    background-color:#007bff2b;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.card34 h5{
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.ninelist li{
+    text-transform: capitalize;
+    color: #646464;
+}
+.card34 h4{
+    font-size: 25px;
+}
+.card34 p{
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.ninebutton button{
+    background-color: #007bff2b;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    
+}
+.icon2{
+    background-color: #f36;
+}
+.icon2 i{
+    color: #fff;
+}
+.ninebutton2 button{
+    background-color: #f36;
+    color: #fff;
+}
+.line{
+    color: #007bff2b;
+}
+.line2{
+    color: #f36;
+}
+.card34:hover .icons{
+    background-color: #f36;
+
+}
+.card34:hover .icons i{
+    color: #fff;
+}
+.card34:hover .ninebutton button{
+    background-color: #f36;
+    color: #fff;
+}
+.card35:hover .icons{
+    background-color:#007bff2b;
+
+}
+.card35:hover .icons i{
+    color: #f36;
+}
+.card35:hover .ninebutton button{
+    background-color:#007bff12;
+    color:black;
+}
+.tenthsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+.tenthone{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: capitalize;
+    gap: 10px;
+}
+.tenthone h2{
+    font-size: 30px;
+}
+.tenthone p{
+    color: #646464;
+    text-align: center;
+    width: 50%;
+}
+.tenthtwo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tenthtwo p{
+    /* border: 2px solid black; */
+    box-shadow: -8px 20px 20px rgb(245, 245, 245);
+    padding: 15px 90px 15px 10px;
+    display: block;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.tenthtwo p:hover{
+    background-color: #f36;
+    color: #fff;
+    transition: .5s;
+}
+.tenththree{
+    box-shadow:-8px 20px 20px rgb(245, 245, 245);
+}
+.paragraph2{
+    width: 90%;
+    color: #646464;
+    font-size: 2px;
+}
+.tenththree{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.border p{
+    padding: 15px 180px 15px 10px;
+}
+.elevensection{
+    margin-top: 100px;
+    background-color:#007bff12;
+    height: 90vh;
+    gap: 20px;
+}
+.elevencontent{
+    display: flex;
+    align-items: center;
+}
+.elevenone{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 60vh;
+    gap: 20px;
+    text-transform: capitalize;
+}
+.elevencontent2{
+    display: flex;
+    align-items: flex-end;
+    height: 70vh;
+}
+.elevenone h2{
+    font-size: 25px;
+}
+.elevenone p{
+    color: #646464;
+
+}
+.elevenbutton{
+    display: flex;
+    gap: 20px;
+}
+.elevenbutton button{
+    background-color: #f36;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 15px;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.footersection{
+    margin-top: 100px;
+    background-color: #000000e5;
+    height: 90vh;
+    color: #fff;
+}
+.footercontent{
+    display: flex;
+    justify-content: space-between;
+    height: 70vh;
+    align-items: center;
+}
+.footer1 h6{
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.footer2{
+    text-transform: capitalize;
+}
+.footer2 li{
+    list-style: none;
+}
+.footer2 h3{
+    font-size: 20px;
+}
+.footer2 li:hover{
+    color: #f36;
+    margin-left: 10px;
+    text-decoration:overline;
+}

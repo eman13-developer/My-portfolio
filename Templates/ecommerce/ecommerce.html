@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecommerce</title>
+    <link rel="stylesheet" href="ecommerce.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Ecommerce</h1>
+<input name="search" type="text" onkeyup="searchproducts()">
+        <div class="buttons">
+            <button onclick="getallproducts()">All</button>
+            <button onclick="getfilteration('beauty')">Beauty</button>
+            <button onclick="getfilteration('fragrances')">Fragrances</button>
+            <button onclick="getfilteration('furniture')">Furniture</button>
+            <button onclick="getfilteration('groceries')">Groceries</button>
+        </div>
+    </div>
+<div class="products">
+    <div class="product">
+        <img src="" alt="">
+        <h5></h5>
+        <h2></h2>
+        <p></p>
+        <footer>
+            <h4></h4>
+            <h4></h4>
+        </footer>
+    </div>
+</div>
+    <script src="ecommerce.js"></script>
+</body>
+</html>

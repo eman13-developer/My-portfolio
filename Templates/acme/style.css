@@ -1,0 +1,410 @@
+*{
+    margin: 0%;
+    padding: 0%;   
+}
+.mainwidth{
+    width: 100%;
+    margin: auto;
+}
+#firstsection{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#firstsection button{
+    background-color: #eb5757;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+#firstsection p{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+#navsection{
+    background-color: #eb5757;
+    color: white;
+    padding: 20px;
+}
+.navcontent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.listing{
+    display: flex;
+gap: 35px;
+align-items: center;
+}
+.listing li{
+    list-style: none;
+    text-transform: capitalize;
+}
+.listing li:hover{
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.icon i{
+background-color: black;
+border-radius: 5px;
+padding: 7px 17px;
+}
+.icon p{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20px;
+    left: 35px;
+}
+#herosection{
+    background: url(./pictures/5e83f98bae1ad80129fcd7e5_wu-jianxiong-UniC8xhlzaE-unsplash.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-content: center;
+    color: white;
+    gap: 40px;
+}
+#herosection h1{
+    font-size: 50px;
+    width: 30%;
+}
+#herosection p{
+    width: 35%;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.herocontent{
+    width: 95%;
+    margin: auto;
+}
+.herocontent h3{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 10%;
+    padding: 5px 15px;
+    text-transform: capitalize;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.herocontent h3:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+#thirdsection{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+.firstsection p{
+    font-size: 15px;
+
+}
+.firstsection h1{
+    width: 300%;
+    font-size: 40px;
+}
+.secondsection p{
+    width: 85%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 15px;
+     font-family: sans-serif;
+    
+}
+.thirdcontent{
+    display: flex;
+    justify-content: space-between;
+    gap: 400px;
+}
+.cards{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    text-transform: capitalize;
+}
+.card1{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    width: 350px;
+    height: 300px;
+    position: relative;
+}
+.card1 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 40px;
+    text-transform: uppercase;
+     font-family:Sen,sans-serif;
+     text-align: center;
+}
+.card1 h2{
+    font-size: 30px;
+    padding: 20px;
+}
+.card3{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    width: 350px;
+    height: 300px;
+    position: relative;
+}
+.card3 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 40px;
+    text-transform: uppercase;
+   font-family:Sen,sans-serif;
+   width: 70%;
+   text-align: center;
+}
+.card3 h2{
+    font-size: 30px;
+    padding: 20px;
+}
+.card3 img{
+position: absolute;
+left: 270px;
+}
+#card2 img{
+position: absolute;
+left: 220px;
+bottom: -40px;
+}
+.card1 img{
+    position: absolute;
+    left: 270px;
+}
+.paragraphs{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 90px;
+}
+.paragraph1 p{
+    width: 90%;
+}
+.paragraph2 p{
+    width: 80%;
+}
+#forthsection{
+    background: url(./pictures/background\ image.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    text-transform: capitalize;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+.forthcontent h1{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+}
+.forthcontent{
+    display: flex;
+    flex-direction: column;
+align-items: flex-end;
+justify-content: center;
+}
+.forthcontent p{
+    width: 40%;
+    margin-right: 70px;
+    font-size: 20px;
+}
+.forthcontent button{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+.forthcontent button:hover{
+background-color: #eb5757;
+color:white;
+transition: .5s;
+cursor: pointer;
+}
+.fifthsection{
+    width: 95%;
+    margin: auto;
+    margin-top: 100px;
+}
+.fiveimages{
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+.img1{
+    background-image: url(./pictures/5e856e41c718420c18dd6751_patrick-hendry-eDgUyGu93Yw-unsplash.jpg);
+height: 70vh;
+width: 40%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.img2{
+    display: flex;
+    background-image: url(./pictures/5e8542c1248e59128e08e3e9_ryan-holloway-JyDmUaXMib4-unsplash.jpg);
+height: 70vh;
+width: 40%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.img3{
+    display: flex;
+    background-image: url(./pictures/5e85425605cae11f20d46181_denisse-leon-J7CjWufjmg4-unsplash.jpg);
+height: 70vh;
+width: 40%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.fiveone h2{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.fiveone p{
+    font-size: 30px;
+    text-transform: uppercase;
+    font: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ruppes{
+    display: flex;
+    justify-content: space-around;
+    text-transform: capitalize;
+}
+.ruppes h4{
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.detail button{
+    background-color: #eb5757;
+    color: white;
+    border: none;
+    text-transform: capitalize;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 5px;
+}
+.buttonsection{
+    margin: 50px 0px;
+    text-align: center;
+}
+.buttonsection button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    /* padding:10px 15px ; */
+    padding: 10px 30px;
+}
+#footersection{
+    background-color: #222;
+    border: 1px solid #222;
+    height: 80vh;
+    width: 70%;
+    margin-bottom: 200px;
+    margin-left: 350px;
+    border-radius: 5px;
+    color: #f9f9f9;
+
+}
+.footercontent{
+    font-family:sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footercontent p{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    padding: 10px 0px;
+}
+.footercontent h2{
+    font-size: 40px;
+    padding: 20px 0px;
+}
+#footerimage{
+    background-image: url(./pictures/image.jpg);
+    height: 60vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    position: relative;
+    bottom: 350px;
+    right: 300px;
+    border-radius: 20px;
+}
+.lastsection{
+    margin-top: 20px;
+    background-color:#222;
+    height: 30vh;
+    color: #f9f9f9;
+    
+}
+#logo{
+    margin: auto;
+    width: 95%;
+}
+#logo img{
+    padding-top: 20px;
+}
+.line p{
+     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 90px;
+    color: #f9f9f9;
+}

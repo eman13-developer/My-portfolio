@@ -1,0 +1,1066 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:Roboto;
+}
+section{
+    margin-top: 20px;
+}
+#mainsection{
+    background-image: url(./images/bg_1.jpg.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#mainwidth{
+    width: 70%;
+    margin: auto;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    color: #fff;
+}
+.clockphone{
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    gap: 10px;
+}
+.mainclock{
+    display: flex;
+    gap: 50px;
+}
+.logo{
+    cursor: pointer;
+}
+.logo h1{
+    font-weight: 700; 
+}
+.logo p{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.logo:hover h1{
+    color: rgb(30, 178, 166);
+    transition: .8s all ease-in-out;
+}
+.clockphone i{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 50px;
+}
+.info{
+    gap: 10px;
+}
+.socialicons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.socialicons i{
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color:rgb(30, 178, 166);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+.socialicons i:hover{
+    background-color:rgb(30, 178, 166);
+     color: #fff;
+     transition: .5s all ease-in-out;
+}
+.secondsection{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 10px;
+    background-color:rgba(255, 255, 255, 0.2);
+    height: 100%;
+    cursor: pointer;
+}
+.links{
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    align-items: center;
+}
+.links li{
+    list-style: none;
+}
+.links li a{
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.btn button{
+    height:100%;
+    padding: 20px 50px;
+    background-color:rgb(30, 178, 166);
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15x;
+    clip-path: polygon(20% 0%, 100% 0, 100% 100%, 6% 99%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.btn{
+    max-width: 218px;
+    width: 100%;
+
+}
+.links li:first-child a{
+    color:rgb(30, 178, 166);
+}
+.menubar i{
+    font-size: 30px;
+    padding: 10px 0px;
+    /* background-color: rgb(30, 178, 166); */
+    margin: auto;
+    max-width: 240px;
+    width: 100%;
+}
+.menubar{
+    margin-left: auto;
+}
+.menubar{
+    display: none;
+}
+.thirdsection{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    gap: 10px;
+}
+.thirdsection h4{
+    color: rgba(255, 255, 255, 0.635);
+    text-transform: uppercase;
+}
+.thirdsection h1{
+    width: 40%;
+}
+.thirdsection p{
+    color:  rgba(255, 255, 255, 0.635);
+    font-size: 15px;
+    width: 50%;
+}
+.mainbutton{
+    display: flex;
+    gap: 10px;
+}
+.button button:first-child{
+    background-color:rgb(30, 178, 166);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button2 button{
+    color:rgb(30, 178, 166);
+    background-color:#fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 10px;
+    cursor: pointer;
+}
+.button2 i{
+    color: rgb(30, 178, 166);
+}
+.image1{
+    background-image: url(./images/about.jpg.webp);
+    height: 100vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+}
+.forthsection{
+    display: flex;
+    gap: 30px;
+    background-color: #ffffff03;
+    
+}
+.forthcontent{
+width: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 20px;
+}
+.forthcontent h5{
+    color: rgb(30, 178, 166);
+    text-transform: uppercase;
+}
+.forthcontent h1{
+    width: 70%;
+}
+.cards{
+    display: flex;
+    box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.18);
+    padding: 20px;
+    width: 450px;
+    gap: 10px;  
+    transition: .5s all ease-in-out;
+}
+.cards i{
+    display: flex;
+    align-items: flex-start;
+    font-size: 50px;
+    color: rgb(30, 178, 166);
+}
+.cardcontent h4{
+text-transform: capitalize;
+}
+.cardcontent p{
+    font-size: 12px;
+    margin-top: 10px;
+    /* color: rgba(128, 128, 128, 0.82); */
+}
+.cards:hover{
+    background-color:rgb(30, 178, 166);
+    color: #fff;
+}
+.cards:hover i{
+    color:#fff;
+}
+.fifthsection{
+    background:linear-gradient(to right,rgba(9, 9, 9, 0.425),rgba(249, 253, 249, 0.119)),url(./images/bg_3.jpg.webp);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.mainfive{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fifthcontent{
+    display: flex;
+    gap: 10px;
+    color: #fff;
+}
+.fifthcontent span{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.fifthcontent h4{
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.fifthcontent i{
+    font-size: 50px;
+}
+.sixthsection{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    width: 50vw;
+}
+.cardheading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.cardheading h4{
+    text-transform: capitalize;
+    color: rgb(30, 178, 166);
+}
+.cardheading h1{
+    font-weight: 600;
+}
+
+.cardonlinecourses{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.maincard{
+    box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.18);
+  padding: 20px 40px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 20%;
+
+}
+.cardmaterial{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.cardsection{
+    display: flex;
+    gap: 15px;
+}
+.cardicon{
+    display: flex;
+    align-items: flex-start;
+    height: 5%;
+}
+.cardicon i{
+    background-color:rgb(30, 178, 166);
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.cardmaterial h2{
+    width: 90%;
+font-weight: 600;
+font-size: 20px;
+}
+.star{
+    color: rgb(30, 178, 166);
+}
+.bgsection{
+    display: flex;
+    gap: 10px;
+}
+ .bgimage{
+    background-image: url(./images/author-1.jpg.webp);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.bgmaterial p{
+    font-size: 12px;
+    color:  rgb(30, 178, 166);
+}
+.paragraphsection p{
+   background-color: rgba(0, 0, 0, 0.084);
+      color:rgb(30, 178, 166);
+      width: 90%;
+      font-size: 14px;
+      padding: 5px 10px;
+      text-align: center;
+      border-radius: 2px;
+    
+}
+.paragraphsection button{
+    background-color: #fff;
+    border: 1px solid rgb(30, 178, 166);
+    width: 99%;
+    color:rgb(30, 178, 166);
+    text-transform: capitalize;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s;
+    margin-top: 10px;
+}
+.paragraphsection button:hover{
+    background-color:rgb(30, 178, 166);
+    color: #fff;
+}
+ .seventhsection{
+    height: 80vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+ }
+ .section1{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     gap: 20px;
+    }
+    .sevencard{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+    .sevencard h4{
+        color: rgb(30, 178, 166);
+        text-transform: uppercase;
+    }
+    .sevencard h1{
+        text-transform: capitalize;
+    }
+    .colum1{
+     width: 10%;
+    background-color: #fff;
+    box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.18);
+      border-radius: 2px;
+      padding:30px 20px;
+      text-align: center;
+      gap: 10px;
+      transition: .5s;
+ }
+ .colum1 i{
+    color:rgb(30, 178, 166);
+    font-size: 50px;
+}
+.section1{
+    gap: 10px;
+}
+.section2{
+    gap: 10px;
+}
+.colum1 h5{
+    text-transform: capitalize;
+}
+.columcontent span{
+    background-color:rgba(0, 0, 0, 0.084);
+    color: rgb(30, 178, 166);
+    border-radius: 2px;
+}
+.colum1:hover{
+    background-color:rgb(30, 178, 166);
+    color: #fff;
+}
+.colum1:hover i{
+    color: #fff;
+}
+.colum1:hover span{
+    background-color: #fff;
+    color: rgb(30, 178, 166);
+}
+.columcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.eightsecion{
+    height: 80vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.eightheading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.eightheading h4{
+    color: rgb(30, 178, 166);
+    text-transform: capitalize;
+}
+.eightheading h1{
+    text-transform: capitalize;
+}
+.eightcards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.eight1{
+     box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.18);
+    padding: 35px 30px 30px 30px;
+     gap: 20px;
+     width: 25%;
+     
+}
+.backgroundsec{
+    background-image: url(./images/person_1.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.eighticon{
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+.eighticon i{
+    background-color: rgb(30, 178, 166);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+#backgroundsec2{
+    background-image: url(./images/person_2.jpg.webp);
+}
+.flexp{
+    display: flex;
+    gap: 20px;
+}
+.eightmaterial{
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.eightmaterial p{
+    color: rgb(30, 178, 166);
+    font-size: 12px;
+    font-weight: 800;
+}
+.eightp{
+    color:gray;
+    font-size: 13px;
+    width: 110%;
+    margin-top: 10px;
+}
+.eightp2 p{
+font-size: 13px;
+    width: 110%;
+    margin-top: 10px;
+}
+#eight2{
+    background-color: rgb(30, 178, 166);
+    color: #fff;
+}
+.eightmaterial2 p{
+    color: #fff;
+}
+.ninthsection{
+    height: 80vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.nineheading{
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+     align-items: center;
+    gap: 10px;
+}
+.nineheading h4{
+    color: rgb(30, 178, 166);
+}
+.nineheading h1{
+    font-size: 40px;
+}
+.ninecards{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ninebg{
+    background-image: url(./images/image_1.jpg);
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#ninebg2{
+    background-image: url(./images/image_2.jpg);
+}
+#ninebg3{
+    background-image: url(./images/image_3.jpg);
+}
+.nineicon{
+    display: flex;
+    gap: 5px;
+    font-size: 12px;
+}
+.nine1{
+    box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.18);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+}
+.ninecontent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding:20px;
+}
+.ninecontent h2{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: .2s;
+    cursor: pointer;
+}
+.nineicon{
+    text-transform: capitalize;
+}
+.nineicon i{
+    color: rgb(30, 178, 166);
+}
+.nineicon h5{
+    color: gray;
+}
+.comment h5{
+    color:rgb(30, 178, 166);
+}
+.ninecontent p{
+    color: gray;
+    font-size: 13px;
+}
+.ninecontent h2:hover{
+    color: rgb(30, 178, 166);
+}
+.tenthsection{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    height: 80vh;
+    width: 50vw;
+}
+.tenthheading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: flex-end; */
+}
+.tenthheading h4{
+    text-transform: uppercase;
+    color: rgb(30, 178, 166);
+}
+.tenthheading h1{
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.tenthcards{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.tenthone{
+    background-color: #fff;
+  box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.18);
+
+    padding:40px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    width: 22%;
+}
+.tenthone h5{
+    text-transform: uppercase;
+}
+.amount{
+    display: flex;
+    gap: 5px;
+}
+.amount h5{
+    color: gray;
+    font-size: 20px;
+}
+.amount span{
+    color: rgb(30, 178, 166);
+    font-size: 40px;
+    font-weight: bold;
+}
+.tenthone p{
+    color: gray;
+    font-size: 13px;
+    text-align: center;
+    width: 30ch;
+}
+.tenthbutton button{
+    background-color: #fff;
+    border: 1px solid rgb(30, 178, 166);
+    border-radius: 4px;
+    padding: 10px 40px;
+    color: rgb(30, 178, 166);
+    text-transform: capitalize;
+    font-size: 10px;
+    font-weight: bold;
+    transition: .5s;
+    cursor: pointer;
+}
+.tenthbutton button:hover{
+    background-color:rgb(30, 178, 166);
+    color:#fff;
+}
+.elevensection{
+    margin-top: 80px;
+    display: flex;
+    background-color: rgb(30, 178, 166);
+    height: 30vh;
+}
+.elevencontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    height: 100%;
+}
+.elevenone p{
+    font-size: 12px;
+    margin-top: 5px;
+}
+.eleventwo input{
+    text-transform: capitalize;
+    background-color: rgb(30, 178, 166);
+    padding: 5px 20px 5px 0px;
+    color: #fff;
+border: none;
+}
+.eleventwo input::placeholder{
+    color: #fff;
+}
+.footercontent{
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer1{
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+    gap: 10px;
+}
+.footer3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.post-img{
+    background-image: url(./images/image_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 2px;
+}
+.footer2 h2{
+    text-transform: capitalize;
+}
+ .bgsection i{
+    display: flex;
+    font-size: 10px;
+    color: rgb(30, 178, 166);
+ }
+ .post1{
+    display: flex;
+    gap: 10px;
+ }
+ .postcontainer{
+    height: 130%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+ }
+.ip{
+    display: flex;
+    font-size: 10px;
+    color: rgb(30, 178, 166);
+    gap: 10px;
+}
+.footerarrow{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer4i{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.last{
+    display: flex;
+    gap: 10px;
+}
+.footer4c{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+.logo1 h2{
+    font-weight: bold;
+}
+.logo1 p{
+    color: rgb(30, 178, 166);
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.footerlist p{
+    color: gray;
+    font-size: 13px;
+    width: 30ch;
+}
+.footericon{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.footericon i{
+    background-color: rgb(30, 178, 166);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer2 h4{
+    text-transform: capitalize;
+}
+.footerlist ul li{
+    list-style: none;
+}
+.footerlist ul li a{
+    text-decoration: none;
+    color: gray;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+.footerarrow{
+    gap: 10px;
+    margin-top: 5px;
+}
+.footerarrow i{
+    color: rgb(30, 178, 166);
+    font-size: 10px;
+}
+.footer3 h4{
+    text-transform: capitalize;
+}
+.footerbg{
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+}
+.footerbgcontent h5{
+    text-transform: capitalize;
+    color: gray;
+    font-weight: 500;
+}
+.footer4 h4{
+    text-transform: capitalize;
+}
+.footer4i i{
+    color: rgb(30, 178, 166);
+}
+.footerlist4{
+    gap: 20px;
+}
+.footer4c{
+    color: gray;
+}
+.footer4c h5{
+    font-size: 12px;
+    width: 60%;
+}
+.i2 i{
+padding-top: 15px;
+}
+.i3 i{
+padding-bottom: 10px;
+}
+@media(min-width:1650px){
+.thirdsection{
+    font-size: 25px;
+}
+.button button{
+    padding: 50px;
+}
+}
+@media(max-width:1001px){
+.image1{
+    display: none;
+}
+.forthcontent{   
+    width: 99%;    
+    height: auto;
+  }
+  .forthcontent .cards{
+width: 100%;
+  }
+  .forthcontent h5{
+    margin-top: 30px;
+  }
+}
+@media(max-width:1285px){
+#mainwidth{
+    width: 80%;
+    margin: auto;
+}
+}
+@media(max-width:1089px){
+#mainwidth{
+    width: 90%;
+    margin: auto;
+}
+}
+@media(max-width:1040px){
+#mainwidth{
+    width: 100%;
+    margin: auto;
+}
+}
+@media(max-width:1000px){
+#mainwidth{
+    width: 90%;
+    margin: auto;
+}
+.secondsection{
+    background-color: rgb(30, 178, 166);
+    height: 100%;
+}
+.mainclock{
+    display:none;
+}
+.btn{
+    background-color:rgb(30, 178, 166);
+    width: 100%;
+}
+.btn button{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.42);
+    clip-path: none;
+      margin-left: 10px;
+}
+.logo h1{
+    font-size: 20px;
+}
+.logo p{
+    font-size: 10px;
+}
+.links{
+    display: none;
+}
+.menubar{
+   display: flex;
+   width: 100%;
+   font-size: 10px;
+}
+.menubar i{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+}
+@media(max-width:500px){
+.thirdsection{
+gap: 5px;
+}
+}
+@media(max-width:900px){
+.maincard{
+    width: 100%;
+}
+.sixthsection{
+ padding-top: 50px;
+    height: max-content;
+}
+}
+@media(max-width:900px){
+.seventhsection{
+    padding-top: 50px;
+    height: max-content;
+}
+.colum1{
+    width: 20%;
+}
+}
+@media(max-width:900px){
+    .eight1{
+        width: 100%;
+    }
+    .eightsecion{
+        padding-top: 50px;
+        height: max-content;
+    }
+}
+@media(max-width:900px){
+    .nine1{
+        width: 100%;
+    }
+    .ninthsection{
+        padding-top: 50px;
+        height: max-content;
+    }
+}
+@media(max-width:900px){
+    .tenthone{
+        width: 100%;
+    }
+    .tenthsection{
+        padding-top: 50px;
+        height: max-content;
+    }
+}
+@media(max-width:900px){
+    .elevencontent{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+@media(max-width:1011px){
+.footercontent{
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+}
+}
